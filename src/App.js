@@ -10,7 +10,7 @@ import { AiOutlineCalendar } from "react-icons/ai";
 
 function App() {
   // const [prof, setprof] = useState("Programmer");
-
+   
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -42,12 +42,12 @@ function App() {
           </svg>
         </div>
         <Navbar />
-
+        <label htmlFor="click">
         <div className="intro">
           <h1 className="hii">Hi,</h1>
           <h1 className="introd">I am Sayyad Abdul Latif.</h1>
-          {/* <h1 className="prof">I am a {prof}</h1> */}
         </div>
+        </label>
         <div className="profile-sec-1">
           <img
             className="profile-pic"
