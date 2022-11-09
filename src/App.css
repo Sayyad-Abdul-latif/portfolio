@@ -304,8 +304,14 @@ margin-top: 30px;
 }
 
 
-@media all and (max-width:1000px) {
-
+@media all and (max-width:900px) {
+  html,body{
+    /* height: 100%;
+    width: 100%; */
+    /* padding: 0;
+    margin: 0; */
+    overflow-x: hidden;
+  }
   .data-tech{
     flex-direction: column;
     align-items: center;
@@ -360,11 +366,14 @@ margin-top: 30px;
   .logo{
     flex:1;
   }
- 
+ .profile{
+  width: 100vw;
+ }
   .profile-sec-1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 70px;
   }
   .profile-pic{
     /* z-index: -1; */
@@ -381,7 +390,7 @@ margin-top: 30px;
     margin-right: 0px;
   }
   .profile-obj p{
-  width: 250px;
+  width: 220px;
   font-size: 13px;
 }
 .profile-obj h1{
