@@ -205,7 +205,58 @@ function App() {
         </div>
 
         <div className="profile-sec-5">
-          <h1 className="projects">PROJECTS</h1>
+          <h1 className="pro">PROJECTS</h1>
+          <div className="projects">
+            <div className="project-1">
+              <h2>Blind Stick</h2>
+               <img
+              className="comapy-pic"
+              width={40}
+              height={40}
+              alt="please wait"
+              src={require("./images/company-logo.webp")}
+            />
+              <p>
+                  This Project helps
+                   blind people to identify an object 
+                   10 meters ahead
+                 </p>
+                 <a href="/" style={{color:"blueviolet"}}>Click here</a>
+            </div>
+            
+            <div className="project-2">
+              <h2>Recipe Web</h2>
+               <img
+              className="comapy-pic"
+              width={40}
+              height={40}
+              alt="please wait"
+              src={require("./images/company-logo.webp")}
+            />
+              <p>
+                  This Web App contains the recipes of different cuisines and foods
+                 </p>
+                 <a href="/" style={{color:"blueviolet"}}>Click here</a>
+
+            </div>
+          
+            <div className="project-3">
+              <h2>Calculator</h2>
+               <img
+              className="comapy-pic"
+              width={40}
+              height={40}
+              alt="please wait"
+              src={require("./images/company-logo.webp")}
+            />
+              <p>
+                  This Web App is a Calculator, which helps everyone to perform arithmetic operations
+                 </p>
+                 <a href="/" style={{color:"blueviolet"}}>Click here</a>
+
+            </div>
+          
+          </div>
         </div>
       </section>
     </>

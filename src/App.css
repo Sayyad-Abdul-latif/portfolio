@@ -230,6 +230,8 @@ margin-top: 30px;
   text-align: center;
   margin-top: 30px;
 }
+
+
 .intro{
   color:aliceblue;
   width: 100%;
@@ -247,14 +249,14 @@ margin-top: 30px;
 .introd{
   font-size: 50px;
 }
-.profile-sec-4{
+.profile-sec-4 ,.profile-sec-5{
   color: aliceblue;
   display: flex;
   flex-direction: column;
   text-align: center;
   
 }
-.skills{
+.skills,.projects{
   margin-bottom: 50px
 }
 .lang{
@@ -302,6 +304,25 @@ margin-top: 30px;
   margin-right: 300px;
 
 }
+.pro{
+  margin-bottom: 50px;
+}
+.projects{
+  display: flex;
+  justify-content: space-around;
+}
+.projects a{
+  display: inline-block;
+}
+.project-1 , .project-2 , .project-3{
+  font-size: 15px;
+  width:300px;
+  height: fit-content;
+  background-color: rgb(1, 7, 116);
+  border-radius: 10px;
+  box-shadow: 40px 40px 20px #080808;
+  padding: 1rem 2rem;
+}
 
 
 @media all and (max-width:900px) {
@@ -311,6 +332,17 @@ margin-top: 30px;
     /* padding: 0;
     margin: 0; */
     overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .project-1 , .project-2 , .project-3{
+    margin-top: 40px;
+    width: 250px;
+      box-shadow: 30px 30px 20px #080808;
+
+  }
+  .projects{
+    flex-direction: column;
+    align-items: center;
   }
   .data-tech{
     flex-direction: column;
