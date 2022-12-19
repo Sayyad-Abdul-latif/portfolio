@@ -207,52 +207,52 @@ function App() {
         <div className="profile-sec-5">
           <h1 className="pro">PROJECTS</h1>
           <div className="projects">
-            <div className="project-1">
+            <div className="project-1" data-aos = "fade-right">
               <h2>Blind Stick</h2>
                <img
               className="comapy-pic"
               width={40}
               height={40}
               alt="please wait"
-              src={require("./images/company-logo.webp")}
+              src={require("./images/Blind-stick.png")}
             />
               <p>
                   This Project helps
                    blind people to identify an object 
                    10 meters ahead
                  </p>
-                 <a href="/" style={{color:"blueviolet"}}>Click here</a>
+                 <a href="https://github.com/Sayyad-Abdul-latif/BLIND-STICK" style={{color:"blueviolet"}}>Click here</a>
             </div>
             
-            <div className="project-2">
+            <div className="project-2" data-aos = "fade-down">
               <h2>Recipe Web</h2>
                <img
               className="comapy-pic"
               width={40}
               height={40}
               alt="please wait"
-              src={require("./images/company-logo.webp")}
+              src={require("./images/recipe.png")}
             />
               <p>
                   This Web App contains the recipes of different cuisines and foods
                  </p>
-                 <a href="/" style={{color:"blueviolet"}}>Click here</a>
+                 <a href="https://sayyad-abdul-latif.github.io/recipe-app/" style={{color:"blueviolet"}}>Click here</a>
 
             </div>
           
-            <div className="project-3">
+            <div className="project-3" data-aos = "fade-left">
               <h2>Calculator</h2>
                <img
               className="comapy-pic"
               width={40}
               height={40}
               alt="please wait"
-              src={require("./images/company-logo.webp")}
+              src={require("./images/calculator.png")}
             />
               <p>
                   This Web App is a Calculator, which helps everyone to perform arithmetic operations
                  </p>
-                 <a href="/" style={{color:"blueviolet"}}>Click here</a>
+                 <a href="https://sayyad-abdul-latif.github.io/calculator/" style={{color:"blueviolet"}}>Click here</a>
 
             </div>
           

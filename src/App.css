@@ -306,13 +306,20 @@ margin-top: 30px;
 }
 .pro{
   margin-bottom: 50px;
+  letter-spacing: 2px;
 }
 .projects{
   display: flex;
   justify-content: space-around;
 }
+.projects h2{
+  margin-bottom: 12px;
+}
 .projects a{
   display: inline-block;
+}
+.projects img{
+  margin-bottom: 10px;
 }
 .project-1 , .project-2 , .project-3{
   font-size: 15px;
@@ -323,6 +330,9 @@ margin-top: 30px;
   box-shadow: 40px 40px 20px #080808;
   padding: 1rem 2rem;
 }
+.profile-sec-5{
+  
+}
 
 
 @media all and (max-width:900px) {
@@ -332,7 +342,7 @@ margin-top: 30px;
     /* padding: 0;
     margin: 0; */
     overflow-x: hidden;
-    overflow-y: hidden;
+  
   }
   .project-1 , .project-2 , .project-3{
     margin-top: 40px;
