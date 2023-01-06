@@ -253,10 +253,14 @@ function App() {
                   This Web App is a Calculator, which helps everyone to perform arithmetic operations
                  </p>
                  <a href="https://sayyad-abdul-latif.github.io/calculator/" style={{color:"blueviolet"}}>Click here</a>
-
             </div>
           
           </div>
+        </div>
+        <div className="profile-section-6">
+          <div className="intro1">
+          <h1 className="hii" data-aos="fade-up">Thank You</h1>
+        </div>
         </div>
       </section>
     </>
