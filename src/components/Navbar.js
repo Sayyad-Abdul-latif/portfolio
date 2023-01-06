@@ -21,7 +21,7 @@ export default function Navbar() {
       <ul>
         <li>
           <a
-            href="https://drive.google.com/file/d/1GmIn57S31AK9AwPH7VPEgVHkNOXim5dJ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1rzdvW-KhZQ8uDwTfhjt4Dmn2sTepKqXN/view?usp=share_link"
             target="_blank"
             rel="noopener noreferrer"
             data-aos="fade-down"
