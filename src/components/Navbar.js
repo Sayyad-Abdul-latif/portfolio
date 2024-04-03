@@ -46,7 +46,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             data-aos="fade-down"
           >
-            LindedIn
+            LinkedIn
           </a>
         </li>
         <li>
