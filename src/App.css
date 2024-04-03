@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
 
 .nav-bar{
   width: 100%;
